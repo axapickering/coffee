@@ -1,0 +1,19 @@
+html {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #80411e;
+  color: #37251b;
+}
+div, button {
+  background-color: #967259;
+  display: table;
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+}
+div:empty {
+  padding: none;
+}
+button {
+  padding: 10px;
+}
