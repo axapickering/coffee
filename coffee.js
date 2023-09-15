@@ -115,12 +115,12 @@ class UpgradeButton extends Display {
   }
 
     connect() {
-      this.container.appendChild(this.element);
+      this.upgradesContainer.appendChild(this.element);
       this.isVisible = true;
     }
 
     disconnect() {
-      this.container.removeChild(this.element);
+      this.upgradesContainer.removeChild(this.element);
       this.isVisible = false;
     }
   }
